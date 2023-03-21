@@ -10,7 +10,7 @@ void send_file(FILE *fp, int sockfd){
   int n;
   char data[SIZE] = {0};
   while(fgets(data, SIZE, fp) != NULL) {
-    if (send(sockfd, data, sizeof(data), 0) == -1) {
+    if (send(sockfd, data, sizeof(data), 0) == 1) {
       perror("[-]Error in sending file.");
       exit(1);
     }
