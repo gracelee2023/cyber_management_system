@@ -11,4 +11,4 @@ This project includes the following files:
 
 1) cyber_system.c file: providedfortheusertogenerate,manipulateandstorethe student data if they log in with correct username and password. The final student data was saved in cyber.txt.
 2) client.c and server.c: contains codes for connection with socket programing and methods to send file and receive file.
-3) the servercomponent accepts the connect request from the client and syncs the file sent by its connected client, and the received file is named "cyber_received.txt".
+3) the server component accepts the connect request from the client and syncs the file sent by its connected client, and the received file is named "cyber_received.txt".
