@@ -34,9 +34,9 @@ void main()
         printf("\t\t\t\t\tEnter your Password :");
         scanf("%s",&password);
 
-        if(strcmp(username, "admin")==0)
+        if(strcmp(username, "cs5008")==0)
         {
-            if(strcmp(password ,"cyber123")==0)
+            if(strcmp(password ,"group4")==0)
             {
                 system("CLS");
                 main_heading();
