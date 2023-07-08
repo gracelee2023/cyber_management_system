@@ -1,5 +1,4 @@
-# Final_Project_Cyber_Management_System
-CS5008 Final Project
+# Cyber_Management_System
 
 "Cyber Management System
 The system consists of 2 modules: Client and Server. The server module is responsible for managing settings and client requests. On the other hand, the client component provides clients with internet access to the location's services. Both these parts have separate source code and run in sync with one another. The cyber management system can be programmed by utilizing the advanced features of C, such as socket programming and multithreading.
